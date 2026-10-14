@@ -1,0 +1,17 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+{'train_runtime': 132.0706, 'train_loss': 11.219117164611816, 'epoch': 0.00026147208785462153}
+{
+  "train_seconds": 132.06973987072706,
+  "optimizer_steps": 1,
+  "target_tokens": 6439,
+  "tokens_per_second_including_warmup": 48.754544427078024,
+  "warmup_steps": 10,
+  "measured_steps": 0,
+  "measured_seconds": 0,
+  "tokens_per_second": null,
+  "seconds_per_optimizer_step": null,
+  "peak_allocated_gib": 26.041941165924072,
+  "peak_reserved_gib": 26.349609375,
+  "validation_loss": 11.234650611275445,
+  "validation_target_tokens": 50694
+}
