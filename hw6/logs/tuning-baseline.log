@@ -1,0 +1,29 @@
+data/requests.jsonl: OK
+Traceback (most recent call last):
+  File "/usr/local/bin/vllm", line 4, in <module>
+    from vllm.entrypoints.cli.main import main
+  File "/usr/local/lib/python3.12/dist-packages/vllm/__init__.py", line 14, in <module>
+    import vllm.env_override  # noqa: F401
+    ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/vllm/env_override.py", line 567, in <module>
+    from torch._dynamo.convert_frame import GraphCaptureOutput
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/__init__.py", line 13, in <module>
+    from . import (
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/aot_compile.py", line 17, in <module>
+    from torch._dynamo.package import SystemInfo
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/package.py", line 1173, in <module>
+    DynamoCache = DiskDynamoCache(os.path.join(cache_dir(), "dynamo"))
+                                               ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_dynamo/package.py", line 1170, in cache_dir
+    return cache_dir()
+           ^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/runtime/cache_dir_utils.py", line 17, in cache_dir
+    os.environ["TORCHINDUCTOR_CACHE_DIR"] = cache_dir = default_cache_dir()
+                                                        ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/torch/_inductor/runtime/cache_dir_utils.py", line 23, in default_cache_dir
+    sanitized_username = re.sub(r'[\\/:*?"<>|]', "_", getpass.getuser())
+                                                      ^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/getpass.py", line 169, in getuser
+    return pwd.getpwuid(os.getuid())[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'getpwuid(): uid not found: 11340'

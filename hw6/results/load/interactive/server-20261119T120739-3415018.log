@@ -1,0 +1,18 @@
+(APIServer pid=1) INFO 11-19 09:07:51 [utils.py:344] 
+(APIServer pid=1) INFO 11-19 09:07:51 [utils.py:344]        █     █     █▄   ▄█
+(APIServer pid=1) INFO 11-19 09:07:51 [utils.py:344]  ▄▄ ▄█ █     █     █ ▀▄▀ █  version 0.22.0
+(APIServer pid=1) INFO 11-19 09:07:51 [utils.py:344]   █▄█▀ █     █     █     █  model   Qwen/Qwen3-8B
+(APIServer pid=1) INFO 11-19 09:07:51 [utils.py:344]    ▀▀  ▀▀▀▀▀ ▀▀▀▀▀ ▀     ▀
+(APIServer pid=1) INFO 11-19 09:07:51 [utils.py:344] 
+(APIServer pid=1) INFO 11-19 09:07:51 [utils.py:278] non-default args: {'model_tag': 'Qwen/Qwen3-8B', 'host': '127.0.0.1', 'port': 18739, 'model': 'Qwen/Qwen3-8B', 'revision': 'b968826d9c46dd6066d109eabc6255188de91218', 'performance_mode': 'interactivity'}
+(APIServer pid=1) INFO 11-19 09:07:51 [arg_utils.py:753] HF_HUB_OFFLINE is True, replace model_id [Qwen/Qwen3-8B] to model_path [/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218]
+(APIServer pid=1) WARNING 11-19 09:07:51 [envs.py:2057] Unknown vLLM environment variable detected: VLLM_BUILD_URL
+(APIServer pid=1) WARNING 11-19 09:07:51 [envs.py:2057] Unknown vLLM environment variable detected: VLLM_IMAGE_TAG
+(APIServer pid=1) WARNING 11-19 09:07:51 [envs.py:2057] Unknown vLLM environment variable detected: VLLM_BUILD_PIPELINE
+(APIServer pid=1) WARNING 11-19 09:07:51 [envs.py:2057] Unknown vLLM environment variable detected: VLLM_BUILD_COMMIT
+(APIServer pid=1) INFO 11-19 09:07:51 [model.py:617] Resolved architecture: Qwen3ForCausalLM
+(APIServer pid=1) INFO 11-19 09:07:51 [model.py:1752] Using max model len 40960
+(APIServer pid=1) INFO 11-19 09:07:51 [vllm.py:832] Performance mode set to 'interactivity'.
+(APIServer pid=1) INFO 11-19 09:07:51 [vllm.py:977] Asynchronous scheduling is enabled.
+(APIServer pid=1) INFO 11-19 09:07:51 [kernel.py:270] Final IR op priority after setting platform defaults: IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native'])
+time="2026-11-19T12:08:04+03:00" level=error msg="error waiting for container: "

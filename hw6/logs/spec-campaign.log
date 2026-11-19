@@ -1,0 +1,25 @@
+data/requests.jsonl: OK
+2026-11-19T11:37:32+03:00 tuning plain_v1 120 RPM
+2026-11-19T11:43:46+03:00 tuning plain_v1 120 RPM завершён
+data/requests.jsonl: OK
+2026-11-19T11:44:48+03:00 spec plain_v1 60 RPM
+2026-11-19T11:48:31+03:00 spec plain_v1 60 RPM завершён
+2026-11-19T11:48:31+03:00 spec plain_v1 120 RPM
+2026-11-19T11:50:43+03:00 spec plain_v1 120 RPM завершён
+2026-11-19T11:50:43+03:00 spec plain_v1 180 RPM
+2026-11-19T11:52:29+03:00 spec plain_v1 180 RPM завершён
+2026-11-19T11:52:29+03:00 spec plain_v1 240 RPM
+2026-11-19T11:54:04+03:00 spec plain_v1 240 RPM завершён
+2026-11-19T11:54:04+03:00 spec plain_v1 360 RPM
+2026-11-19T11:55:28+03:00 spec plain_v1 360 RPM завершён
+data/requests.jsonl: OK
+2026-11-19T11:56:29+03:00 spec ngram 60 RPM
+2026-11-19T12:00:12+03:00 spec ngram 60 RPM завершён
+2026-11-19T12:00:12+03:00 spec ngram 120 RPM
+2026-11-19T12:02:27+03:00 spec ngram 120 RPM завершён
+2026-11-19T12:02:27+03:00 spec ngram 180 RPM
+2026-11-19T12:04:16+03:00 spec ngram 180 RPM завершён
+2026-11-19T12:04:16+03:00 spec ngram 240 RPM
+2026-11-19T12:05:59+03:00 spec ngram 240 RPM завершён
+2026-11-19T12:05:59+03:00 spec ngram 360 RPM
+2026-11-19T12:07:37+03:00 spec ngram 360 RPM завершён

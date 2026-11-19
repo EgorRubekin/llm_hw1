@@ -1,0 +1,179 @@
+2026-11-19 07:51:58.060 - aiperf.cli_runner._single_run - INFO - Starting AIPerf System
+2026-11-19 07:51:58.065 - aiperf.config.resolution.resolvers - INFO - [OK] Tokenizer /scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218 detected
+2026-11-19 07:51:58.065 - aiperf.config.resolution.resolvers - INFO - 1 tokenizer validated | 0.0s
+2026-11-19 07:51:58.065 - aiperf.config.resolution.resolvers - INFO - HF offline mode already set, skipping cache warming
+2026-11-19 07:51:58.373 - _ServiceRegistry - INFO - Registered: Gpu_Telemetry_Manager ('gpu_telemetry_manager') [0/0]
+2026-11-19 07:51:58.373 - system_controller - INFO - Registered Gpu Telemetry Manager (id: 'gpu_telemetry_manager')
+2026-11-19 07:51:58.373 - system_controller - INFO - Registered Gpu Telemetry Manager (id: 'gpu_telemetry_manager')
+2026-11-19 07:51:58.379 - GPUTelemetryJSONLWriter_3c9ced91 - INFO - GPU telemetry export enabled: /homework/results/tuning/baseline/120/profile/gpu_telemetry_export.jsonl
+2026-11-19 07:51:58.385 - OTelMetricsResultsProcessor_3f5cd716 - INFO - Telemetry streaming is disabled (set --otel-url and/or --mlflow-tracking-uri to enable)
+2026-11-19 07:51:58.386 - RecordExportJSONLWriter_9f2afd55 - INFO - Record metrics export enabled: /homework/results/tuning/baseline/120/profile/profile_export.jsonl
+2026-11-19 07:51:58.406 - _ServiceRegistry - INFO - Registered: Worker_Manager ('worker_manager') [0/0]
+2026-11-19 07:51:58.406 - system_controller - INFO - Registered Worker Manager (id: 'worker_manager')
+2026-11-19 07:51:58.407 - system_controller - INFO - Registered Worker Manager (id: 'worker_manager')
+2026-11-19 07:51:58.424 - server_metrics_manager - INFO - Server Metrics: Discovered 1 endpoints: ['http://127.0.0.1:18739/metrics']
+2026-11-19 07:51:58.585 - OutputsJsonRecordProcessor_e8841da2 - INFO - OutputsJsonRecordProcessor initialized: /homework/results/tuning/baseline/120/profile/output_fragments/output_fragments_record_processor_fe506c7b.jsonl
+2026-11-19 07:51:58.591 - OutputsJsonRecordProcessor_55559f1a - INFO - OutputsJsonRecordProcessor initialized: /homework/results/tuning/baseline/120/profile/output_fragments/output_fragments_record_processor_cbdf060f.jsonl
+2026-11-19 07:51:58.598 - OutputsJsonRecordProcessor_ec101879 - INFO - OutputsJsonRecordProcessor initialized: /homework/results/tuning/baseline/120/profile/output_fragments/output_fragments_record_processor_0c0e8ee2.jsonl
+2026-11-19 07:51:58.603 - _ServiceRegistry - INFO - Registered: Dataset_Manager ('dataset_manager') [0/0]
+2026-11-19 07:51:58.603 - system_controller - INFO - Registered Dataset Manager (id: 'dataset_manager')
+2026-11-19 07:51:58.604 - _ServiceRegistry - INFO - Registered: Records_Manager ('records_manager') [0/0]
+2026-11-19 07:51:58.604 - system_controller - INFO - Registered Records Manager (id: 'records_manager')
+2026-11-19 07:51:58.604 - _ServiceRegistry - INFO - Registered: Server_Metrics_Manager ('server_metrics_manager') [0/0]
+2026-11-19 07:51:58.604 - system_controller - INFO - Registered Server Metrics Manager (id: 'server_metrics_manager')
+2026-11-19 07:51:58.604 - _ServiceRegistry - INFO - Registered: Record_Processor ('record_processor_cbdf060f') [0/0]
+2026-11-19 07:51:58.604 - system_controller - INFO - Registered Record Processor (id: 'record_processor_cbdf060f')
+2026-11-19 07:51:58.604 - OutputsJsonRecordProcessor_fca31ae1 - INFO - OutputsJsonRecordProcessor initialized: /homework/results/tuning/baseline/120/profile/output_fragments/output_fragments_record_processor_79d7acb0.jsonl
+2026-11-19 07:51:58.604 - _ServiceRegistry - INFO - Registered: Record_Processor ('record_processor_fe506c7b') [0/0]
+2026-11-19 07:51:58.604 - system_controller - INFO - Registered Record Processor (id: 'record_processor_fe506c7b')
+2026-11-19 07:51:58.605 - _ServiceRegistry - INFO - Registered: Record_Processor ('record_processor_0c0e8ee2') [0/0]
+2026-11-19 07:51:58.605 - system_controller - INFO - Registered Record Processor (id: 'record_processor_0c0e8ee2')
+2026-11-19 07:51:58.609 - OutputsJsonRecordProcessor_f27e325f - INFO - OutputsJsonRecordProcessor initialized: /homework/results/tuning/baseline/120/profile/output_fragments/output_fragments_record_processor_f37da175.jsonl
+2026-11-19 07:51:58.611 - _ServiceRegistry - INFO - Registered: Record_Processor ('record_processor_79d7acb0') [0/0]
+2026-11-19 07:51:58.611 - system_controller - INFO - Registered Record Processor (id: 'record_processor_79d7acb0')
+2026-11-19 07:51:58.612 - system_controller - INFO - Registered Record Processor (id: 'record_processor_79d7acb0')
+2026-11-19 07:51:58.615 - OutputsJsonRecordProcessor_5dad93d8 - INFO - OutputsJsonRecordProcessor initialized: /homework/results/tuning/baseline/120/profile/output_fragments/output_fragments_record_processor_8716158c.jsonl
+2026-11-19 07:51:58.617 - _ServiceRegistry - INFO - Registered: Record_Processor ('record_processor_f37da175') [0/0]
+2026-11-19 07:51:58.617 - system_controller - INFO - Registered Record Processor (id: 'record_processor_f37da175')
+2026-11-19 07:51:58.617 - system_controller - INFO - Registered Record Processor (id: 'record_processor_f37da175')
+2026-11-19 07:51:58.622 - OutputsJsonRecordProcessor_fba6d0b9 - INFO - OutputsJsonRecordProcessor initialized: /homework/results/tuning/baseline/120/profile/output_fragments/output_fragments_record_processor_e6a5d394.jsonl
+2026-11-19 07:51:58.623 - _ServiceRegistry - INFO - Registered: Record_Processor ('record_processor_8716158c') [0/0]
+2026-11-19 07:51:58.623 - system_controller - INFO - Registered Record Processor (id: 'record_processor_8716158c')
+2026-11-19 07:51:58.623 - system_controller - INFO - Registered Record Processor (id: 'record_processor_8716158c')
+2026-11-19 07:51:58.629 - OutputsJsonRecordProcessor_4dadcba6 - INFO - OutputsJsonRecordProcessor initialized: /homework/results/tuning/baseline/120/profile/output_fragments/output_fragments_record_processor_0ca6eef8.jsonl
+2026-11-19 07:51:58.630 - _ServiceRegistry - INFO - Registered: Record_Processor ('record_processor_e6a5d394') [0/0]
+2026-11-19 07:51:58.630 - system_controller - INFO - Registered Record Processor (id: 'record_processor_e6a5d394')
+2026-11-19 07:51:58.630 - system_controller - INFO - Registered Record Processor (id: 'record_processor_e6a5d394')
+2026-11-19 07:51:58.637 - _ServiceRegistry - INFO - Registered: Record_Processor ('record_processor_0ca6eef8') [0/0]
+2026-11-19 07:51:58.637 - system_controller - INFO - Registered Record Processor (id: 'record_processor_0ca6eef8')
+2026-11-19 07:51:58.637 - system_controller - INFO - Registered Record Processor (id: 'record_processor_0ca6eef8')
+2026-11-19 07:51:58.687 - _ServiceRegistry - INFO - Registered: Timing_Manager ('timing_manager') [0/0]
+2026-11-19 07:51:58.687 - system_controller - INFO - Registered Timing Manager (id: 'timing_manager')
+2026-11-19 07:51:58.687 - system_controller - INFO - Registered Timing Manager (id: 'timing_manager')
+2026-11-19 07:51:58.694 - system_controller - INFO - Registered Record Processor (id: 'record_processor_fe506c7b')
+2026-11-19 07:51:58.698 - system_controller - INFO - Registered Record Processor (id: 'record_processor_cbdf060f')
+2026-11-19 07:51:58.704 - _ServiceRegistry - INFO - Registered: Worker ('worker_c36ca013') [0/0]
+2026-11-19 07:51:58.704 - system_controller - INFO - Registered Worker (id: 'worker_c36ca013')
+2026-11-19 07:51:58.704 - system_controller - INFO - Registered Worker (id: 'worker_c36ca013')
+2026-11-19 07:51:58.716 - _ServiceRegistry - INFO - Registered: Worker ('worker_16640096') [0/0]
+2026-11-19 07:51:58.716 - system_controller - INFO - Registered Worker (id: 'worker_16640096')
+2026-11-19 07:51:58.716 - _ServiceRegistry - INFO - Registered: Worker ('worker_5d626a60') [0/0]
+2026-11-19 07:51:58.716 - system_controller - INFO - Registered Worker (id: 'worker_5d626a60')
+2026-11-19 07:51:58.716 - _ServiceRegistry - INFO - Registered: Worker ('worker_b78321c9') [0/0]
+2026-11-19 07:51:58.716 - system_controller - INFO - Registered Worker (id: 'worker_b78321c9')
+2026-11-19 07:51:58.716 - _ServiceRegistry - INFO - Registered: Worker ('worker_8402bdb6') [0/0]
+2026-11-19 07:51:58.717 - system_controller - INFO - Registered Worker (id: 'worker_8402bdb6')
+2026-11-19 07:51:58.724 - _ServiceRegistry - INFO - Registered: Worker ('worker_14b5c7e3') [0/0]
+2026-11-19 07:51:58.724 - system_controller - INFO - Registered Worker (id: 'worker_14b5c7e3')
+2026-11-19 07:51:58.724 - system_controller - INFO - Registered Worker (id: 'worker_14b5c7e3')
+2026-11-19 07:51:58.724 - _ServiceRegistry - INFO - Registered: Worker ('worker_abfb5793') [0/0]
+2026-11-19 07:51:58.724 - system_controller - INFO - Registered Worker (id: 'worker_abfb5793')
+2026-11-19 07:51:58.724 - system_controller - INFO - Registered Worker (id: 'worker_abfb5793')
+2026-11-19 07:51:58.729 - _ServiceRegistry - INFO - Registered: Worker ('worker_c77ec142') [0/0]
+2026-11-19 07:51:58.730 - system_controller - INFO - Registered Worker (id: 'worker_c77ec142')
+2026-11-19 07:51:58.730 - system_controller - INFO - Registered Worker (id: 'worker_c77ec142')
+2026-11-19 07:51:58.734 - _ServiceRegistry - INFO - Registered: Worker ('worker_355c6624') [0/0]
+2026-11-19 07:51:58.734 - system_controller - INFO - Registered Worker (id: 'worker_355c6624')
+2026-11-19 07:51:58.735 - system_controller - INFO - Registered Worker (id: 'worker_355c6624')
+2026-11-19 07:51:58.743 - _ServiceRegistry - INFO - Registered: Worker ('worker_e7c869b6') [0/0]
+2026-11-19 07:51:58.743 - system_controller - INFO - Registered Worker (id: 'worker_e7c869b6')
+2026-11-19 07:51:58.743 - system_controller - INFO - Registered Worker (id: 'worker_e7c869b6')
+2026-11-19 07:51:58.747 - _ServiceRegistry - INFO - Registered: Worker ('worker_882c01c5') [0/0]
+2026-11-19 07:51:58.747 - system_controller - INFO - Registered Worker (id: 'worker_882c01c5')
+2026-11-19 07:51:58.748 - system_controller - INFO - Registered Worker (id: 'worker_882c01c5')
+2026-11-19 07:51:58.773 - _ServiceRegistry - INFO - Registered: Worker ('worker_7f7fc65e') [0/0]
+2026-11-19 07:51:58.774 - system_controller - INFO - Registered Worker (id: 'worker_7f7fc65e')
+2026-11-19 07:51:58.775 - _ServiceRegistry - INFO - Registered: Worker ('worker_7a4efc28') [0/0]
+2026-11-19 07:51:58.775 - system_controller - INFO - Registered Worker (id: 'worker_7a4efc28')
+2026-11-19 07:51:58.777 - _ServiceRegistry - INFO - Registered: Worker ('worker_73aaa579') [0/0]
+2026-11-19 07:51:58.777 - system_controller - INFO - Registered Worker (id: 'worker_73aaa579')
+2026-11-19 07:51:58.777 - system_controller - INFO - Registered Worker (id: 'worker_73aaa579')
+2026-11-19 07:51:58.777 - _ServiceRegistry - INFO - Registered: Worker ('worker_4ed6bea7') [0/0]
+2026-11-19 07:51:58.777 - system_controller - INFO - Registered Worker (id: 'worker_4ed6bea7')
+2026-11-19 07:51:58.777 - system_controller - INFO - Registered Worker (id: 'worker_4ed6bea7')
+2026-11-19 07:51:58.782 - _ServiceRegistry - INFO - Registered: Worker ('worker_4f2643d3') [0/0]
+2026-11-19 07:51:58.782 - system_controller - INFO - Registered Worker (id: 'worker_4f2643d3')
+2026-11-19 07:51:58.782 - system_controller - INFO - Registered Worker (id: 'worker_4f2643d3')
+2026-11-19 07:51:58.785 - _ServiceRegistry - INFO - Registered: Worker ('worker_e75699d0') [0/0]
+2026-11-19 07:51:58.785 - system_controller - INFO - Registered Worker (id: 'worker_e75699d0')
+2026-11-19 07:51:58.785 - system_controller - INFO - Registered Worker (id: 'worker_e75699d0')
+2026-11-19 07:51:58.790 - _ServiceRegistry - INFO - Registered: Worker ('worker_acee44c9') [0/0]
+2026-11-19 07:51:58.790 - system_controller - INFO - Registered Worker (id: 'worker_acee44c9')
+2026-11-19 07:51:58.791 - system_controller - INFO - Registered Worker (id: 'worker_acee44c9')
+2026-11-19 07:51:58.791 - _ServiceRegistry - INFO - Registered: Worker ('worker_5ee55f38') [0/0]
+2026-11-19 07:51:58.791 - system_controller - INFO - Registered Worker (id: 'worker_5ee55f38')
+2026-11-19 07:51:58.791 - system_controller - INFO - Registered Worker (id: 'worker_5ee55f38')
+2026-11-19 07:51:58.793 - _ServiceRegistry - INFO - Registered: Worker ('worker_6f6b4fde') [0/0]
+2026-11-19 07:51:58.793 - system_controller - INFO - Registered Worker (id: 'worker_6f6b4fde')
+2026-11-19 07:51:58.793 - system_controller - INFO - Registered Worker (id: 'worker_6f6b4fde')
+2026-11-19 07:51:58.799 - _ServiceRegistry - INFO - Registered: Worker ('worker_4bcb4fe4') [0/0]
+2026-11-19 07:51:58.799 - system_controller - INFO - Registered Worker (id: 'worker_4bcb4fe4')
+2026-11-19 07:51:58.799 - system_controller - INFO - Registered Worker (id: 'worker_4bcb4fe4')
+2026-11-19 07:51:58.804 - _ServiceRegistry - INFO - Registered: Worker ('worker_68fa7f7c') [0/0]
+2026-11-19 07:51:58.804 - system_controller - INFO - Registered Worker (id: 'worker_68fa7f7c')
+2026-11-19 07:51:58.804 - system_controller - INFO - Registered Worker (id: 'worker_68fa7f7c')
+2026-11-19 07:51:58.806 - _ServiceRegistry - INFO - Registered: Worker ('worker_a54d3791') [0/0]
+2026-11-19 07:51:58.806 - system_controller - INFO - Registered Worker (id: 'worker_a54d3791')
+2026-11-19 07:51:58.807 - system_controller - INFO - Registered Worker (id: 'worker_a54d3791')
+2026-11-19 07:51:58.814 - system_controller - INFO - Registered Worker (id: 'worker_16640096')
+2026-11-19 07:51:58.815 - system_controller - INFO - Registered Worker (id: 'worker_5d626a60')
+2026-11-19 07:51:58.816 - system_controller - INFO - Registered Worker (id: 'worker_b78321c9')
+2026-11-19 07:51:58.839 - _ServiceRegistry - INFO - Registered: Worker ('worker_b662e0ed') [0/0]
+2026-11-19 07:51:58.839 - system_controller - INFO - Registered Worker (id: 'worker_b662e0ed')
+2026-11-19 07:51:58.840 - system_controller - INFO - Registered Worker (id: 'worker_b662e0ed')
+2026-11-19 07:51:58.842 - _ServiceRegistry - INFO - Registered: Worker ('worker_d22e72e9') [0/0]
+2026-11-19 07:51:58.843 - system_controller - INFO - Registered Worker (id: 'worker_d22e72e9')
+2026-11-19 07:51:58.843 - system_controller - INFO - Registered Worker (id: 'worker_d22e72e9')
+2026-11-19 07:51:58.849 - system_controller - INFO - Registered Worker (id: 'worker_7f7fc65e')
+2026-11-19 07:51:58.850 - system_controller - INFO - Registered Worker (id: 'worker_7a4efc28')
+2026-11-19 07:51:58.853 - _ServiceRegistry - INFO - Registered: Worker ('worker_8e716184') [0/0]
+2026-11-19 07:51:58.853 - system_controller - INFO - Registered Worker (id: 'worker_8e716184')
+2026-11-19 07:51:58.854 - system_controller - INFO - Registered Worker (id: 'worker_8e716184')
+2026-11-19 07:51:58.854 - _ServiceRegistry - INFO - Registered: Worker ('worker_f555536d') [0/0]
+2026-11-19 07:51:58.854 - system_controller - INFO - Registered Worker (id: 'worker_f555536d')
+2026-11-19 07:51:58.854 - system_controller - INFO - Registered Worker (id: 'worker_f555536d')
+2026-11-19 07:51:58.862 - system_controller - INFO - System state: initializing -> configuring
+2026-11-19 07:51:58.862 - system_controller - INFO - AIPerf System is CONFIGURING
+2026-11-19 07:51:58.862 - system_controller - INFO - Configuring all services to start profiling
+2026-11-19 07:51:58.863 - InferenceResultParser_7956fdbf - INFO - Configuring tokenizers for inference result parser (resolve_alias: True)
+2026-11-19 07:51:58.863 - InferenceResultParser_9bb545c3 - INFO - Configuring tokenizers for inference result parser (resolve_alias: True)
+2026-11-19 07:51:58.863 - InferenceResultParser_eb11ca80 - INFO - Configuring tokenizers for inference result parser (resolve_alias: True)
+2026-11-19 07:51:58.863 - InferenceResultParser_846de4ac - INFO - Configuring tokenizers for inference result parser (resolve_alias: True)
+2026-11-19 07:51:58.863 - InferenceResultParser_bab83963 - INFO - Configuring tokenizers for inference result parser (resolve_alias: True)
+2026-11-19 07:51:58.863 - InferenceResultParser_7b52714c - INFO - Configuring tokenizers for inference result parser (resolve_alias: True)
+2026-11-19 07:51:58.863 - InferenceResultParser_c74d46c0 - INFO - Configuring tokenizers for inference result parser (resolve_alias: True)
+2026-11-19 07:51:58.863 - timing_manager - INFO - Waiting for dataset to be configured before configuring timing
+2026-11-19 07:51:58.863 - InferenceResultParser_f80443d7 - INFO - Configuring tokenizers for inference result parser (resolve_alias: True)
+2026-11-19 07:51:58.867 - _ServiceRegistry - INFO - Registered: Worker ('worker_fef89ec2') [0/0]
+2026-11-19 07:51:58.868 - system_controller - INFO - Registered Worker (id: 'worker_fef89ec2')
+2026-11-19 07:51:58.868 - _ServiceRegistry - INFO - Registered: Worker ('worker_4104414c') [0/0]
+2026-11-19 07:51:58.868 - system_controller - INFO - Registered Worker (id: 'worker_4104414c')
+2026-11-19 07:51:58.868 - system_controller - INFO - Registered Worker (id: 'worker_4104414c')
+2026-11-19 07:51:58.871 - _ServiceRegistry - INFO - Registered: Worker ('worker_b3b6c9c2') [0/0]
+2026-11-19 07:51:58.871 - system_controller - INFO - Registered Worker (id: 'worker_b3b6c9c2')
+2026-11-19 07:51:58.871 - system_controller - INFO - Registered Worker (id: 'worker_b3b6c9c2')
+2026-11-19 07:51:58.872 - _ServiceRegistry - INFO - Registered: Worker ('worker_a9514a72') [0/0]
+2026-11-19 07:51:58.872 - system_controller - INFO - Registered Worker (id: 'worker_a9514a72')
+2026-11-19 07:51:58.872 - system_controller - INFO - Registered Worker (id: 'worker_a9514a72')
+2026-11-19 07:51:58.873 - server_metrics_manager - INFO - Server Metrics: Capturing baseline metrics...
+2026-11-19 07:51:58.876 - _ServiceRegistry - INFO - Registered: Worker ('worker_19721049') [0/0]
+2026-11-19 07:51:58.876 - system_controller - INFO - Registered Worker (id: 'worker_19721049')
+2026-11-19 07:51:58.876 - system_controller - INFO - Registered Worker (id: 'worker_19721049')
+2026-11-19 07:51:58.887 - gpu_telemetry_manager - INFO - GPU Telemetry: Capturing baseline metrics from http://localhost:9400/metrics
+2026-11-19 07:51:58.892 - http://127.0.0.1:18739/metrics - INFO - Skipping unsupported summary metric: http_request_size_bytes
+2026-11-19 07:51:58.892 - http://127.0.0.1:18739/metrics - INFO - Skipping unsupported summary metric: http_response_size_bytes
+2026-11-19 07:51:58.894 - system_controller - INFO - Server metrics enabled - 1/1 endpoint(s) reachable.
+2026-11-19 07:51:58.906 - gpu_telemetry_manager - WARNING - GPU Telemetry: http://localhost:9401/metrics is not reachable
+2026-11-19 07:51:58.906 - system_controller - INFO - DCGM telemetry enabled - 1/1 endpoint(s) reachable
+2026-11-19 07:51:58.968 - system_controller - INFO - Registered Worker (id: 'worker_fef89ec2')
+2026-11-19 07:51:58.986 - dataset_manager - INFO - Configuring tokenizer(s) for dataset manager
+2026-11-19 07:52:00.143 - record_processor_79d7acb0 - ERROR - Failed to handle command profile_configure: Failed to load tokenizer '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218': HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218'. Use `repo_type` argument if needed.
+2026-11-19 07:52:00.145 - record_processor_0c0e8ee2 - ERROR - Failed to handle command profile_configure: Failed to load tokenizer '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218': HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218'. Use `repo_type` argument if needed.
+2026-11-19 07:52:00.145 - record_processor_fe506c7b - ERROR - Failed to handle command profile_configure: Failed to load tokenizer '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218': HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218'. Use `repo_type` argument if needed.
+2026-11-19 07:52:00.145 - record_processor_0ca6eef8 - ERROR - Failed to handle command profile_configure: Failed to load tokenizer '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218': HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218'. Use `repo_type` argument if needed.
+2026-11-19 07:52:00.145 - record_processor_f37da175 - ERROR - Failed to handle command profile_configure: Failed to load tokenizer '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218': HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218'. Use `repo_type` argument if needed.
+2026-11-19 07:52:00.146 - record_processor_e6a5d394 - ERROR - Failed to handle command profile_configure: Failed to load tokenizer '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218': HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218'. Use `repo_type` argument if needed.
+2026-11-19 07:52:00.155 - system_controller - ERROR - Error running Hook(func=<bound method SystemController._start_services of <SystemController system_controller (state=starting)>>, params=None) hook for SystemController: Failed to perform operation 'Configure Profiling'
+2026-11-19 07:52:00.155 - system_controller - ERROR - Failed for SystemController (id=system_controller): SystemController._start_services: Failed to perform operation 'Configure Profiling'
+2026-11-19 07:52:00.156 - system_controller - INFO - System state: configuring -> shutdown
+2026-11-19 07:52:00.159 - record_processor_8716158c - ERROR - Failed to handle command profile_configure: Failed to load tokenizer '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218': HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/scratch/hf/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218'. Use `repo_type` argument if needed.

@@ -1,0 +1,121 @@
+Metric,avg,min,max,sum,p1,p5,p10,p25,p50,p75,p90,p95,p99,std
+Active Decode Throughput (tokens/sec),820.95,0.00,1884.03,,,,,,952.29,,1123.87,1167.78,1270.00,338.13
+Active Decode Throughput Per User (tokens/sec/user),56.30,0.00,178.64,,,,,,64.42,,75.75,79.14,84.86,22.23
+Active Prefill Throughput (tokens/sec),7530.18,480.61,17316.86,,,,,,8690.60,,9890.77,10134.22,14961.79,2803.84
+Active Prefill Throughput Per User (tokens/sec/user),7268.72,480.61,12596.55,,,,,,8318.62,,9769.37,9938.97,10487.63,2632.77
+Active Total Throughput (tokens/sec),2841.04,70.91,18118.02,,,,,,906.58,,9912.20,10310.88,11188.65,3610.92
+Credit-to-Start Latency (ms),0.93,0.57,2.19,593.49,0.62,0.70,0.74,0.81,0.88,0.99,1.16,1.25,1.89,0.21
+Decode Duration (ms),7606.28,15.80,12772.59,4868017.76,415.79,1232.06,1917.54,6482.76,8320.85,9883.43,10813.05,11736.22,12245.89,3123.94
+E2E Output Token Throughput (tokens/sec/user),55.60,28.70,76.06,35583.10,39.80,41.78,44.06,48.85,55.44,62.61,66.44,69.79,73.16,8.59
+Effective Concurrency,15.19,0.00,25.00,,,,,,15.00,,20.00,21.00,23.00,3.74
+Effective Decode Concurrency,14.91,0.00,25.00,,,,,,15.00,,20.00,20.00,23.00,3.73
+Effective Decode Throughput (tokens/sec),819.62,0.00,1884.03,,,,,,952.02,,1123.74,1167.62,1269.88,339.47
+Effective Decode Throughput Per User (tokens/sec/user),56.21,0.00,178.64,,,,,,64.40,,75.74,79.13,84.86,22.33
+Effective Latency (CO-aware) (ms),7756.55,86.50,13105.96,4964192.28,568.38,1327.07,2068.87,6641.04,8449.05,10018.10,11023.35,11943.33,12630.46,3156.31
+Effective Prefill Concurrency,0.28,0.00,2.00,,,,,,0.00,,1.00,1.00,2.00,0.48
+Effective Prefill Throughput (tokens/sec),2017.03,0.00,17316.86,,,,,,0.00,,9111.49,9544.62,10487.63,3636.75
+Effective Prefill Throughput Per User (tokens/sec/user),1946.99,0.00,12596.55,,,,,,0.00,,9012.40,9489.86,10013.92,3495.43
+Effective Total Throughput (tokens/sec),2836.65,0.00,18118.02,,,,,,906.40,,9903.37,10310.88,11188.65,3609.86
+HTTP Blocked (ms),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+HTTP Chunks Received,419.91,3.00,512.00,268745.00,31.95,67.90,121.00,363.75,512.00,512.00,512.00,512.00,512.00,155.00
+HTTP Chunks Sent,1.00,1.00,1.00,640.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00,0.00
+HTTP Connecting (ms),0.44,0.00,3.37,282.38,0.00,0.00,0.00,0.43,0.46,0.50,0.54,0.61,0.90,0.20
+HTTP Connection Overhead (ms),0.44,0.00,3.37,282.38,0.00,0.00,0.00,0.43,0.46,0.50,0.54,0.61,0.90,0.20
+HTTP Connection Reused (ratio),0.10,0.00,1.00,65.00,0.00,0.00,0.00,0.00,0.00,0.00,1.00,1.00,1.00,0.30
+HTTP Data Received (KB),101.19,1.28,124.20,64761.18,8.21,16.80,29.69,88.20,123.04,123.29,123.54,123.72,124.01,37.12
+HTTP Data Sent (KB),4.93,0.34,39.77,3153.99,0.44,0.50,0.57,0.98,2.37,4.54,15.03,18.83,32.22,6.62
+HTTP DNS Lookup (ms),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+HTTP Duration (excl. conn) (ms),7755.54,85.52,13105.09,4963547.40,567.49,1326.18,2067.99,6640.09,8447.81,10017.16,11022.45,11942.10,12629.55,3156.30
+HTTP Receiving (ms),7612.63,31.72,12772.59,4872082.73,429.52,1245.91,1932.12,6502.56,8320.86,9883.44,10813.06,11736.23,12258.44,3117.76
+HTTP Sending (ms),0.68,0.16,3.81,432.71,0.18,0.21,0.56,0.64,0.68,0.74,0.81,0.92,1.49,0.24
+HTTP Total Time (ms),7755.98,86.07,13105.09,4963829.78,567.96,1326.59,2068.36,6640.51,8448.36,10017.16,11022.96,11942.14,12629.82,3156.30
+HTTP Waiting (TTFB) (ms),142.24,24.60,861.63,91031.95,41.53,47.59,50.98,59.25,82.46,121.53,362.89,418.11,773.55,145.53
+Input Sequence Length (tokens),1030.08,43.00,8057.00,659253.00,52.39,64.00,77.80,171.50,469.50,895.25,3300.10,3896.05,6920.62,1438.98
+Inter Chunk Latency (ms),18.25,8.24,296.58,4868017.76,12.01,12.81,13.25,13.79,14.97,17.88,20.11,27.57,92.14,13.00
+Inter Token Latency (ms),18.00,12.29,26.06,11518.23,13.04,14.03,14.68,15.72,17.63,20.06,22.09,23.22,24.36,2.81
+OSL Mismatch Diff % (%),-18.05,-99.61,1.56,-11553.12,-93.96,-86.93,-76.56,-29.15,0.00,0.00,0.00,0.00,0.00,30.35
+Output Sequence Length (tokens),419.57,2.00,520.00,268528.00,30.95,66.90,120.00,362.75,512.00,512.00,512.00,512.00,512.00,155.39
+Output Token Count (tokens),419.57,2.00,520.00,268528.00,30.95,66.90,120.00,362.75,512.00,512.00,512.00,512.00,512.00,155.39
+Output Token Throughput Per User (tokens/sec/user),56.91,38.37,81.39,36421.45,41.04,43.06,45.28,49.85,56.73,63.63,68.11,71.29,76.67,8.72
+Prefill Throughput Per User (tokens/sec/user),5425.52,385.77,12596.55,3472334.01,877.37,1182.57,1437.87,2811.13,5574.00,7764.89,9345.63,9728.28,10127.80,2875.13
+Request Latency (ms),7749.28,69.69,13105.15,4959537.59,553.56,1310.22,2053.65,6586.29,8447.90,10017.23,11022.52,11942.18,12629.63,3162.49
+Time to First Output Token (ms),143.00,25.69,861.89,91519.83,42.33,48.41,51.75,59.97,83.22,122.21,363.65,418.87,774.36,145.53
+Time to First Token (ms),143.00,25.69,861.89,91519.83,42.33,48.41,51.75,59.97,83.22,122.21,363.65,418.87,774.36,145.53
+Time to Second Token (ms),15.93,10.24,87.87,10195.38,11.27,12.12,12.44,13.44,14.42,17.55,19.70,20.64,29.83,6.07
+Tokens In Flight (tokens),21682.00,0.00,47908.40,,,,,,20555.59,,36228.01,39975.10,42537.79,9542.92
+Usage Completion Tokens (tokens),419.91,3.00,512.00,268745.00,31.95,67.90,121.00,363.75,512.00,512.00,512.00,512.00,512.00,155.00
+Usage Completion Diff % (%),0.36,0.00,50.00,227.55,0.00,0.00,0.00,0.00,0.00,0.28,0.83,1.54,3.25,2.07
+Usage Prompt Tokens (tokens),1061.69,64.00,8069.00,679479.00,67.00,77.00,91.00,190.00,489.50,941.50,3359.50,3998.95,6948.72,1456.73
+Usage Prompt Diff % (%),7.90,0.15,51.16,5055.54,0.40,0.92,1.41,2.75,5.14,11.18,18.19,21.08,38.39,7.58
+Usage Total Tokens (tokens),1481.60,68.00,8581.00,948224.00,130.39,274.75,385.60,619.00,934.50,1387.50,3838.50,4476.50,7460.72,1492.22
+
+Metric,Value
+Benchmark Duration (sec),326.34
+Completed Requests (Success + Error),640.00
+Input Token Throughput (tokens/sec),2017.03
+Average GPU Power (W),422.39
+Energy Delay Product (J*s),1671.62
+Energy per Output Token (mJ/token),514.12
+Energy per Request (joules/request),215.71
+Energy per Total Token (mJ/token),148.80
+Output Tokens per Joule (tokens/J),1.95
+Output Tokens per Second per Watt (tokens/sec/W),1.95
+Performance per Watt (requests/sec/W),0.00
+Total GPU Energy (J),138056.47
+Total GPU Power (W),422.27
+OSL Mismatch Count,205.00
+Output Token Throughput (tokens/sec),821.58
+Request Count,640.00
+Request Error Rate (%),0.00
+Request Throughput (requests/sec),1.96
+Total Input Sequence Length (tokens),659253.00
+Total Output Sequence Length (tokens),268528.00
+Total Output Tokens (tokens),268528.00
+Total Token Throughput (tokens/sec),2838.61
+Total Usage Completion Tokens (tokens),268745.00
+Total Usage Prompt Tokens (tokens),679479.00
+Total Usage Total Tokens (tokens),948224.00
+Usage Discrepancy Count,178.00
+
+
+Endpoint,GPU_Index,GPU_Name,GPU_UUID,Platform,Metric,avg,min,max,sum,p1,p5,p10,p25,p50,p75,p90,p95,p99,std,Hostname
+localhost:9400,0,NVIDIA A100 80GB PCIe,GPU-e7e7f396-3546-58a3-beb4-520761516a66,nvidia,NVIDIA GPU Power Usage (W),297.31,284.34,308.44,25271.52,284.34,284.34,290.40,292.21,297.89,302.78,305.02,305.02,308.44,6.68,dsswat-ix-devbox11
+localhost:9400,0,NVIDIA A100 80GB PCIe,GPU-e7e7f396-3546-58a3-beb4-520761516a66,nvidia,NVIDIA Energy Consumption (MJ),0.10,,,,,,,,,,,,,,dsswat-ix-devbox11
+localhost:9400,0,NVIDIA A100 80GB PCIe,GPU-e7e7f396-3546-58a3-beb4-520761516a66,nvidia,NVIDIA GPU Utilization (%),100.00,100.00,100.00,8500.00,100.00,100.00,100.00,100.00,100.00,100.00,100.00,100.00,100.00,0.00,dsswat-ix-devbox11
+localhost:9400,0,NVIDIA A100 80GB PCIe,GPU-e7e7f396-3546-58a3-beb4-520761516a66,nvidia,NVIDIA Memory Utilization (%),79.74,65.00,86.00,6778.00,65.00,65.00,69.00,77.00,83.00,85.00,85.60,86.00,86.00,6.90,dsswat-ix-devbox11
+localhost:9400,0,NVIDIA A100 80GB PCIe,GPU-e7e7f396-3546-58a3-beb4-520761516a66,nvidia,NVIDIA GPU Memory Used (GB),80.80,80.80,80.80,6868.37,80.80,80.80,80.80,80.80,80.80,80.80,80.80,80.80,80.80,0.00,dsswat-ix-devbox11
+localhost:9400,0,NVIDIA A100 80GB PCIe,GPU-e7e7f396-3546-58a3-beb4-520761516a66,nvidia,NVIDIA GPU Temperature (°C),71.71,68.00,72.00,6095.00,68.00,71.00,71.00,72.00,72.00,72.00,72.00,72.00,72.00,0.88,dsswat-ix-devbox11
+localhost:9400,0,NVIDIA A100 80GB PCIe,GPU-e7e7f396-3546-58a3-beb4-520761516a66,nvidia,NVIDIA Decoder Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,0,NVIDIA A100 80GB PCIe,GPU-e7e7f396-3546-58a3-beb4-520761516a66,nvidia,NVIDIA Encoder Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,0,NVIDIA A100 80GB PCIe,GPU-e7e7f396-3546-58a3-beb4-520761516a66,nvidia,NVIDIA XID Errors (count),0.00,,,,,,,,,,,,,,dsswat-ix-devbox11
+localhost:9400,0,NVIDIA A100 80GB PCIe,GPU-e7e7f396-3546-58a3-beb4-520761516a66,nvidia,NVIDIA Power Violation (us),0.00,,,,,,,,,,,,,,dsswat-ix-devbox11
+localhost:9400,1,NVIDIA A100 80GB PCIe,GPU-9817398d-d797-768f-5264-2878a6b00464,nvidia,NVIDIA GPU Power Usage (W),42.42,42.18,42.96,3606.10,42.18,42.18,42.28,42.28,42.37,42.48,42.75,42.91,42.96,0.20,dsswat-ix-devbox11
+localhost:9400,1,NVIDIA A100 80GB PCIe,GPU-9817398d-d797-768f-5264-2878a6b00464,nvidia,NVIDIA Energy Consumption (MJ),0.01,,,,,,,,,,,,,,dsswat-ix-devbox11
+localhost:9400,1,NVIDIA A100 80GB PCIe,GPU-9817398d-d797-768f-5264-2878a6b00464,nvidia,NVIDIA GPU Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,1,NVIDIA A100 80GB PCIe,GPU-9817398d-d797-768f-5264-2878a6b00464,nvidia,NVIDIA Memory Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,1,NVIDIA A100 80GB PCIe,GPU-9817398d-d797-768f-5264-2878a6b00464,nvidia,NVIDIA GPU Memory Used (GB),0.00,0.00,0.00,0.36,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,1,NVIDIA A100 80GB PCIe,GPU-9817398d-d797-768f-5264-2878a6b00464,nvidia,NVIDIA GPU Temperature (°C),33.25,33.00,35.00,2826.00,33.00,33.00,33.00,33.00,33.00,33.00,34.00,35.00,35.00,0.58,dsswat-ix-devbox11
+localhost:9400,1,NVIDIA A100 80GB PCIe,GPU-9817398d-d797-768f-5264-2878a6b00464,nvidia,NVIDIA Decoder Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,1,NVIDIA A100 80GB PCIe,GPU-9817398d-d797-768f-5264-2878a6b00464,nvidia,NVIDIA Encoder Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,1,NVIDIA A100 80GB PCIe,GPU-9817398d-d797-768f-5264-2878a6b00464,nvidia,NVIDIA XID Errors (count),0.00,,,,,,,,,,,,,,dsswat-ix-devbox11
+localhost:9400,1,NVIDIA A100 80GB PCIe,GPU-9817398d-d797-768f-5264-2878a6b00464,nvidia,NVIDIA Power Violation (us),0.00,,,,,,,,,,,,,,dsswat-ix-devbox11
+localhost:9400,2,NVIDIA A100 80GB PCIe,GPU-27125288-8f15-6a9b-3da3-fadf8f88e7b0,nvidia,NVIDIA GPU Power Usage (W),42.08,41.88,42.28,3576.47,41.88,41.88,41.97,41.99,42.07,42.19,42.27,42.27,42.28,0.13,dsswat-ix-devbox11
+localhost:9400,2,NVIDIA A100 80GB PCIe,GPU-27125288-8f15-6a9b-3da3-fadf8f88e7b0,nvidia,NVIDIA Energy Consumption (MJ),0.01,,,,,,,,,,,,,,dsswat-ix-devbox11
+localhost:9400,2,NVIDIA A100 80GB PCIe,GPU-27125288-8f15-6a9b-3da3-fadf8f88e7b0,nvidia,NVIDIA GPU Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,2,NVIDIA A100 80GB PCIe,GPU-27125288-8f15-6a9b-3da3-fadf8f88e7b0,nvidia,NVIDIA Memory Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,2,NVIDIA A100 80GB PCIe,GPU-27125288-8f15-6a9b-3da3-fadf8f88e7b0,nvidia,NVIDIA GPU Memory Used (GB),0.00,0.00,0.00,0.36,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,2,NVIDIA A100 80GB PCIe,GPU-27125288-8f15-6a9b-3da3-fadf8f88e7b0,nvidia,NVIDIA GPU Temperature (°C),37.21,37.00,38.00,3163.00,37.00,37.00,37.00,37.00,37.00,37.00,38.00,38.00,38.00,0.41,dsswat-ix-devbox11
+localhost:9400,2,NVIDIA A100 80GB PCIe,GPU-27125288-8f15-6a9b-3da3-fadf8f88e7b0,nvidia,NVIDIA Decoder Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,2,NVIDIA A100 80GB PCIe,GPU-27125288-8f15-6a9b-3da3-fadf8f88e7b0,nvidia,NVIDIA Encoder Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,2,NVIDIA A100 80GB PCIe,GPU-27125288-8f15-6a9b-3da3-fadf8f88e7b0,nvidia,NVIDIA XID Errors (count),0.00,,,,,,,,,,,,,,dsswat-ix-devbox11
+localhost:9400,2,NVIDIA A100 80GB PCIe,GPU-27125288-8f15-6a9b-3da3-fadf8f88e7b0,nvidia,NVIDIA Power Violation (us),0.00,,,,,,,,,,,,,,dsswat-ix-devbox11
+localhost:9400,3,NVIDIA A100 80GB PCIe,GPU-3c50771f-ba48-ca52-0321-6feccbe268cc,nvidia,NVIDIA GPU Power Usage (W),40.45,40.35,40.73,3438.65,40.35,40.35,40.36,40.44,40.44,40.44,40.54,40.54,40.73,0.07,dsswat-ix-devbox11
+localhost:9400,3,NVIDIA A100 80GB PCIe,GPU-3c50771f-ba48-ca52-0321-6feccbe268cc,nvidia,NVIDIA Energy Consumption (MJ),0.01,,,,,,,,,,,,,,dsswat-ix-devbox11
+localhost:9400,3,NVIDIA A100 80GB PCIe,GPU-3c50771f-ba48-ca52-0321-6feccbe268cc,nvidia,NVIDIA GPU Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,3,NVIDIA A100 80GB PCIe,GPU-3c50771f-ba48-ca52-0321-6feccbe268cc,nvidia,NVIDIA Memory Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,3,NVIDIA A100 80GB PCIe,GPU-3c50771f-ba48-ca52-0321-6feccbe268cc,nvidia,NVIDIA GPU Memory Used (GB),0.00,0.00,0.00,0.36,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,3,NVIDIA A100 80GB PCIe,GPU-3c50771f-ba48-ca52-0321-6feccbe268cc,nvidia,NVIDIA GPU Temperature (°C),37.08,37.00,38.00,3152.00,37.00,37.00,37.00,37.00,37.00,37.00,37.00,38.00,38.00,0.28,dsswat-ix-devbox11
+localhost:9400,3,NVIDIA A100 80GB PCIe,GPU-3c50771f-ba48-ca52-0321-6feccbe268cc,nvidia,NVIDIA Decoder Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,3,NVIDIA A100 80GB PCIe,GPU-3c50771f-ba48-ca52-0321-6feccbe268cc,nvidia,NVIDIA Encoder Utilization (%),0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,dsswat-ix-devbox11
+localhost:9400,3,NVIDIA A100 80GB PCIe,GPU-3c50771f-ba48-ca52-0321-6feccbe268cc,nvidia,NVIDIA XID Errors (count),0.00,,,,,,,,,,,,,,dsswat-ix-devbox11
+localhost:9400,3,NVIDIA A100 80GB PCIe,GPU-3c50771f-ba48-ca52-0321-6feccbe268cc,nvidia,NVIDIA Power Violation (us),0.00,,,,,,,,,,,,,,dsswat-ix-devbox11
