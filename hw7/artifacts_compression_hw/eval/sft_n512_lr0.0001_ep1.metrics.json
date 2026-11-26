@@ -1,0 +1,8 @@
+{
+  "quality": 0.5645669683515483,
+  "intent_accuracy": 0.75390625,
+  "slot_micro_f1": 0.37522768670309653,
+  "frame_exact_match": 0.2734375,
+  "valid_json_rate": 0.96875,
+  "n": 256
+}

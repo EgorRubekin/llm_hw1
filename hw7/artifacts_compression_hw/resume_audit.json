@@ -1,0 +1,8 @@
+{
+  "train_n": 11514,
+  "dev_n": 256,
+  "teacher_n": 2048,
+  "valid_teacher_n": 1994,
+  "dev_sha256": "bfc837903a1c0ea8f939b5060dc5660f563edb1b12334f64679222a078c4316b",
+  "answers_sha256": "0c79da5cb2860af980c57ef0f07f101992f6d807130fcdf13ca42b2039e0b7b4"
+}

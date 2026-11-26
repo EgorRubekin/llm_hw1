@@ -1,0 +1,141 @@
+{
+  "files": [
+    {
+      "path": "quantized/awq_massive/added_tokens.json",
+      "bytes": 707,
+      "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+    },
+    {
+      "path": "quantized/awq_massive/chat_template.jinja",
+      "bytes": 4168,
+      "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+    },
+    {
+      "path": "quantized/awq_massive/config.json",
+      "bytes": 2416,
+      "sha256": "95539d46cb4c3f9fa3f35339f588a193e7617b279e8d86f4e41204a58bb3e6e7"
+    },
+    {
+      "path": "quantized/awq_massive/generation_config.json",
+      "bytes": 214,
+      "sha256": "a11456f04db85ae8010eca3b91c5df7c9a49261571c3e62ae7d88b3189a55c30"
+    },
+    {
+      "path": "quantized/awq_massive/merges.txt",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "path": "quantized/awq_massive/model-00001-of-00002.safetensors",
+      "bytes": 4853957200,
+      "sha256": "2f493409cf39fd1289e13a82fd9b5e692d51fc553cfacb33c798ecc852b99a65"
+    },
+    {
+      "path": "quantized/awq_massive/model-00002-of-00002.safetensors",
+      "bytes": 1244659840,
+      "sha256": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff"
+    },
+    {
+      "path": "quantized/awq_massive/model.safetensors.index.json",
+      "bytes": 101823,
+      "sha256": "c970b3e6b437056e21778023243c8858e57e96681cc48c6e906f0f455fe4215c"
+    },
+    {
+      "path": "quantized/awq_massive/recipe.yaml",
+      "bytes": 553,
+      "sha256": "6b1aa71ca3fe46c69ac9258a47e772214269823f5ebee986fd1861329eae9156"
+    },
+    {
+      "path": "quantized/awq_massive/special_tokens_map.json",
+      "bytes": 613,
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+    },
+    {
+      "path": "quantized/awq_massive/tokenizer.json",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "path": "quantized/awq_massive/tokenizer_config.json",
+      "bytes": 5404,
+      "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0"
+    },
+    {
+      "path": "quantized/awq_massive/vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    {
+      "path": "student_sft/added_tokens.json",
+      "bytes": 707,
+      "sha256": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680"
+    },
+    {
+      "path": "student_sft/chat_template.jinja",
+      "bytes": 4168,
+      "sha256": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8"
+    },
+    {
+      "path": "student_sft/config.json",
+      "bytes": 1544,
+      "sha256": "ff65deae4e4f860ab2da10a208bd636f05f19fa97ca973005185ffa689f6a6ed"
+    },
+    {
+      "path": "student_sft/generation_config.json",
+      "bytes": 214,
+      "sha256": "a11456f04db85ae8010eca3b91c5df7c9a49261571c3e62ae7d88b3189a55c30"
+    },
+    {
+      "path": "student_sft/merges.txt",
+      "bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "path": "student_sft/model-00001-of-00004.safetensors",
+      "bytes": 4902257696,
+      "sha256": "18bdc8b2d220ece5c4cb790bd831c9c3e3315d78c4abff3e2ebd8e82df7fc416"
+    },
+    {
+      "path": "student_sft/model-00002-of-00004.safetensors",
+      "bytes": 4915960368,
+      "sha256": "193dc3b18035ee732e829a8cc52d6db27287ec4306baebda9ec9e40b765eb533"
+    },
+    {
+      "path": "student_sft/model-00003-of-00004.safetensors",
+      "bytes": 4983068496,
+      "sha256": "bfd0030c931376e69cd1e7675a1b6e9f9869668c0b2138bfebdee5ff0f439562"
+    },
+    {
+      "path": "student_sft/model-00004-of-00004.safetensors",
+      "bytes": 1580230264,
+      "sha256": "5e02453b5e37968da340c9ded2251680643e4f039f23c1ab48308cccb6609029"
+    },
+    {
+      "path": "student_sft/model.safetensors.index.json",
+      "bytes": 32914,
+      "sha256": "e7e4bdc58d3302c97357f27979b270987dd620cf0cd9b1c130e3a51c9d64df95"
+    },
+    {
+      "path": "student_sft/special_tokens_map.json",
+      "bytes": 613,
+      "sha256": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd"
+    },
+    {
+      "path": "student_sft/tokenizer.json",
+      "bytes": 11422654,
+      "sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "path": "student_sft/tokenizer_config.json",
+      "bytes": 5404,
+      "sha256": "443bfa629eb16387a12edbf92a76f6a6f10b2af3b53d87ba1550adfcf45f7fa0"
+    },
+    {
+      "path": "student_sft/vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ],
+  "retained_int4": "quantized/awq_massive",
+  "student": "sft_n1024_lr5e-05_ep2"
+}

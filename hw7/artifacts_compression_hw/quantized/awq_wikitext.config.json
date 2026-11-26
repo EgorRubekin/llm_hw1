@@ -1,0 +1,51 @@
+{
+  "method": "awq",
+  "calibration": "wikitext",
+  "samples": 128,
+  "bits": 4,
+  "group_size": 128,
+  "symmetric": false,
+  "base_model": "Qwen/Qwen3-8B",
+  "ignore": [
+    "lm_head"
+  ],
+  "seed": 42,
+  "evaluation_backend": "transformers-bf16-decompressed",
+  "storage_format": "pack-quantized",
+  "compatibility_patch": "awq_compat.py",
+  "checkpoint_quantization_config": {
+    "config_groups": {
+      "group_0": {
+        "format": "pack-quantized",
+        "input_activations": null,
+        "output_activations": null,
+        "targets": [
+          "Linear"
+        ],
+        "weights": {
+          "actorder": null,
+          "block_structure": null,
+          "dynamic": false,
+          "group_size": 128,
+          "num_bits": 4,
+          "observer": "minmax",
+          "observer_kwargs": {},
+          "strategy": "group",
+          "symmetric": false,
+          "type": "int"
+        }
+      }
+    },
+    "format": "pack-quantized",
+    "global_compression_ratio": null,
+    "ignore": [
+      "lm_head"
+    ],
+    "kv_cache_scheme": null,
+    "quant_method": "compressed-tensors",
+    "quantization_status": "compressed",
+    "sparsity_config": {},
+    "transform_config": {},
+    "version": "0.12.2"
+  }
+}
